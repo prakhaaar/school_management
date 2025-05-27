@@ -1,3 +1,35 @@
+# School Management API
+
+A Node.js RESTful API to manage school data, built with Express.js and MySQL.
+
+---
+
+## Features
+
+- Add new schools with name, address, latitude, and longitude.
+- Retrieve a list of schools sorted by proximity to a user’s location.
+- Input validation and error handling.
+- Distance calculation using the Haversine formula.
+
+---
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MySQL
+- dotenv (for environment variables)
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/prakhaaar/school_management.git
+cd school_management
+
 Install dependencies
 
 bash
