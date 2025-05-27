@@ -33,16 +33,12 @@ cd school_management
 Install dependencies
 
 bash
-Copy
-Edit
 npm install
 Configure environment variables
 
 Create a .env file in the root directory with the following content:
 
 env
-Copy
-Edit
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
@@ -53,8 +49,7 @@ Setup MySQL database
 Run the following SQL to create the schools table:
 
 sql
-Copy
-Edit
+
 CREATE TABLE schools (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
@@ -65,8 +60,7 @@ CREATE TABLE schools (
 Start the server
 
 bash
-Copy
-Edit
+
 npm start
 Server runs on: http://localhost:3000
 
@@ -103,14 +97,12 @@ Method: GET
 Query Parameters:
 
 ini
-Copy
-Edit
+
 latitude=<user_latitude>&longitude=<user_longitude>
 Response:
 
 json
-Copy
-Edit
+
 [
   {
     "id": 1,
